@@ -1,0 +1,33 @@
+{
+  "name": "foodstock-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "theme:gen": "node scripts/gen-light-theme.mjs"
+  },
+  "dependencies": {
+    "next": "15.5.25",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "zustand": "^5.0.3",
+    "@tanstack/react-query": "^5.62.0",
+    "zod": "^3.24.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.6.0",
+    "lucide-react": "^0.469.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.0"
+  }
+}
